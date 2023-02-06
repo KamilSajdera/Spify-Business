@@ -1,0 +1,437 @@
+@media only screen and (min-width: 424px) 
+{
+    .slide_container 
+    {
+        width: 90%;
+    }
+
+    .previous-slide
+    {
+        left: -7px;
+    }
+
+    .next-slide
+    {
+        right: -7px;
+    }
+}
+
+
+@media only screen and (min-width: 767px) 
+{
+    .top_bar {
+        background-color: transparent;
+    }
+
+    .open_main_menu {
+        display: none;
+    }
+
+    .logo {
+        margin-left: 40px;
+    }
+
+    .main_menu {
+        width: 65%;
+    }
+
+    .main_options
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        background: transparent;
+        transform: translateX(0%);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .main_options ol 
+    {
+        display: flex;
+        justify-content: flex-start;
+        gap: 3px;
+        font-size: 0.38em;
+    }
+
+    .menu_socials {
+        margin-top: 0;
+    }
+
+    .menu_sticky 
+    {
+        height: 45px!important;
+    }
+
+    .services 
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .service-item 
+    {
+        width: 33%;
+    }
+
+    .offer
+    {
+        padding: 15px 45px;
+    }
+
+    .mission 
+    {
+        background-position-x: 0px;
+        height: 450px;
+    }
+
+    .mission_text
+    {
+        margin-top: 40px;
+        padding: 30px 25px;
+    }
+
+    .strengths
+    {
+        width: 80%;
+    }
+
+    .strength-item
+    {
+        margin: 80px auto;
+    }
+
+    .strength-number
+    {
+        width: 5%;
+    }
+
+    .strength-text
+    {
+        width: 95%;
+    }
+
+    .nav-item ul 
+    {
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        display: block;
+    }
+
+    .about_page
+    {
+        padding-top: 100px;
+    }
+
+    .about_desc
+    {
+        padding-left: 50px;
+    }
+
+    .about_tile 
+    {
+        padding: 125px 80px;
+    }
+
+    ol > li:hover > ul 
+    {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .contact_wrapper 
+    {
+        padding: 120px 50px;
+    }
+
+    .contact_wrapper p
+    {
+        text-align: center;
+    }
+
+    .contact_wrapper ul 
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
+    
+    .contact_form 
+    {
+        width: 80%;
+    }
+
+}
+
+
+@media only screen and (min-width: 900px)
+{
+    .main_wrapper {
+        height: 600px;
+    }
+
+    .top_bar {
+        height: 65px;
+    }
+    .main_options ol {
+        font-size: 0.45em;
+    }
+
+    .menu_socials {
+        justify-content: center;
+    }
+
+    .service-item
+    {
+        width: 30%;
+    }
+
+    .about_tile 
+    {
+        padding: 125px 100px;
+    }
+
+    .contact_form 
+    {
+        width: 65%;
+    }
+}
+
+
+@media only screen and (min-width: 1023px)
+{
+    .top_bar {
+        height: 90px;
+    }
+
+    .main_menu {
+        width: 50%;
+    }
+
+    .logo 
+    {
+        width: 13%;
+        height: 36%;
+        margin-left: 60px;
+    }
+
+    .header_message 
+    {
+        flex-direction: row;
+        width: 85%;
+        margin: 0 auto;
+        padding-top: 250px;
+    }
+
+    .main_name 
+    {
+        width: 50%;
+        margin-right: 5%;
+        height: 135px;
+    }
+
+    .main_description 
+    {
+        width: 50%;
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .button_discover
+    {
+        margin-left: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .menu_sticky 
+    {
+        height: 50px!important;
+    }
+
+    .offer 
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 35px;
+    }
+
+    .offer_text,
+    .offer_image 
+    {
+        width: 46%;
+    }
+    .offer_image 
+    {
+        margin-top: 20px;
+    }
+
+    .offer_image img 
+    {
+        width: 100%;
+        height: 110%;
+        object-fit: cover;
+        position: relative;
+        z-index: 99999;
+    }
+
+    .gray_shadow
+    {
+        background: #f5f5f5;
+        width: 57%!important;
+        margin-top: 45px;
+        padding: 10px 20px 45px 90px;
+        position: absolute;
+        right: 0;   
+    }
+
+    .mission_text
+    {
+        margin-top: 235px;
+    }
+
+    .slide_container  
+    {
+        width: 90%;
+        margin-top: 0;
+    }
+
+    .slide-slider 
+    {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .slide-img
+    {
+        width: 50%;
+        padding: 0 0 0 10px;
+    }
+
+    .slide-text
+    {
+        width: 50%; 
+        padding: 0px 35px 0 30px;
+    }
+
+    .contact_form 
+    {
+        width: 55%;
+    }
+
+    .footer_desc, .footer_links, .footer_socials
+    {
+        width: 33%;
+    }
+}
+
+@media only screen and (min-width: 1250px)
+{
+    .main_wrapper {
+        height: 820px;
+    }
+
+    .services 
+    {
+        width: 77%;
+        margin: -210px auto 0 auto;
+    }
+
+    .offer 
+    {
+        width: 75%;
+        margin: 70px auto;
+    }
+
+    .offer_image img 
+    {
+        width: 105%;
+    }
+
+    .gray_shadow
+    {
+        width: 52%!important;
+        margin-top: 55px;
+        padding: 15px 200px 50px 95px;
+    }
+
+    .mission_text
+    {
+        width: 75%;
+        margin-top: 240px;
+        padding: 40px 120px;
+        left: 13%;
+    }
+
+    .strengths {
+        width: 60%;
+    }
+
+    .strength-number
+    {
+        font-size: 80px;
+        margin-top: -20px;
+        margin-right: 25px;
+    }
+
+    .slide_container  
+    {
+        width: 78%;
+        margin-top: 50px;
+    }
+
+    .slide-text
+    {
+        padding-left: 90px;
+    }
+
+    .about_page 
+    {
+        width: 75%;
+    }
+
+    .about_desc 
+    {
+        width: 41%;
+        padding: 30px 32px 30px 40px;
+        position: absolute;
+        top: 29%;
+        left: 30px;
+    }
+
+    .about_img 
+    {
+        width: 80%;
+        margin: 0 0 0 auto;
+    }
+
+    .about_tile 
+    {
+        padding: 125px 310px;
+    }
+
+    .contact_form 
+    {
+        width: 35%;
+    }
+
+    .footer_container 
+    {
+        width: 75%;
+    }
+
+    .footer_desc, .footer_socials
+    {
+        width: 25%;
+    }
+    .footer_links
+    {
+        width: 31%;
+        padding-left: 20px;
+    }
+}
+
